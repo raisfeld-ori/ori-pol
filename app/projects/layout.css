@@ -1,0 +1,252 @@
+
+.pages{
+  width: 100vw;
+  display:flex;
+  justify-content:space-evenly;
+  align-items:self-start;
+  position: absolute;
+  height: 100%;
+  z-index: 3;
+  margin-top: 1svh;
+}
+
+.button-9 {
+appearance: button;
+backface-visibility: hidden;
+background: linear-gradient(90deg, rgb(22, 122, 20) 0%, rgb(34, 122, 38) 55%, rgb(22, 122, 20) 100%);  border-radius: 6px;
+border-width: 0;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.066);
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+font-size: 1.3em;
+height: 4em;
+line-height: 1.15;
+margin: 12px 0 0;
+outline: none;
+overflow: hidden;
+padding: 0 25px;
+position: relative;
+text-align: center;
+text-transform: none;
+transform: translateZ(0);
+transition: all .2s,box-shadow .08s ease-in;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+font-family: "Secular One", sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+.page{
+position: sticky;
+width: 100%;
+z-index: 6;
+}
+
+.option{
+appearance: button;
+backface-visibility: hidden;
+background: linear-gradient(90deg, rgb(22, 122, 20) 0%, rgb(34, 122, 38) 55%, rgb(22, 122, 20) 100%);  border-radius: 6px rgb(99, 122, 255);
+border-width: 0;
+box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0,
+rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+
+box-sizing: border-box;
+color: #fff;
+cursor: pointer;
+line-height: 1.15;
+outline: none;
+overflow: hidden;
+padding: 10px 25px;
+position: relative;
+text-align: center;
+text-transform: none;
+transform: translateZ(0);
+transition: all .5s,box-shadow .08s ease-in;
+user-select: none;
+-webkit-user-select: none;
+touch-action: manipulation;
+font-size: 2.5em;
+font-family: "Secular One", sans-serif;
+font-weight: 400;
+font-style: normal;
+z-index: 7;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+.option:hover{
+background-color: #0b6f0e;
+color: rgb(215, 215, 215);
+}
+
+.dropdown{
+transition: all 0.2s ease-in-out;
+z-index: 2;
+background-color: #0b6f0e;
+border-bottom-left-radius: 10px;
+border-bottom-right-radius: 10px;
+}
+
+
+.drop:hover{
+  background-color: #3c56eb;
+  color: rgb(215, 215, 215);
+}
+
+.child-container{
+margin-top: 10svh;
+width: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+}
+
+.no-drop{
+box-shadow: none;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.116);
+
+}
+
+.no-drop:hover{
+  background-color: #3c56eb;
+  color: rgb(215, 215, 215);
+
+}
+
+
+
+h1, li, p{
+font-family: "Secular One", sans-serif;
+font-weight: 400;
+font-style: normal;
+list-style-type: none;
+}
+
+.container{
+text-align: center;
+height: 100%;
+margin: 10px;
+}
+
+.head{
+font-size: 3em;
+margin-bottom: 2.5em;
+margin-top: 2.5em;
+}
+
+.description{
+font-size: 1.5em;
+margin-right: 3em;
+}
+
+.links{
+width: 100vw;
+display: flex;
+justify-content: space-evenly;
+position:sticky;
+z-index: 9;
+bottom: 0;
+}
+
+.link{
+font-size: 2em;
+transition: all 0.5s ease-in-out;
+cursor: pointer;
+user-select: none;
+}
+
+.linkprj{
+font-size: 2em;
+transition: all 0.5s ease-in-out;
+cursor: pointer;
+user-select: none;
+}
+
+
+.linksprj{
+width: 100%;
+display: flex;
+justify-content: space-evenly;
+position: absolute;
+margin-top: 40em;
+z-index: 9;
+}
+
+.link:hover{
+color: rgb(58, 179, 14);
+}
+
+.linkprg:hover{
+color: rgb(58, 179, 14);
+
+}
+
+.images{
+position: absolute;
+display: flex;
+justify-content: space-evenly;
+align-items: center;
+height: fit-content;
+width: 100%;
+}
+
+.image{
+height: 15em;
+width: 15em;
+object-fit: contain;
+}
+
+.descriptions{
+display: flex;
+margin-bottom: 10em;
+
+}
+
+.CV-text{
+font-size: 1.5em;
+margin-left: 3em; /* REMOVE THIS IN WHILE MEDIA*/
+}
+
+.Whoami{
+font-size: 2.5em;
+margin-bottom: 1em;
+
+}
+
+.CV-head{
+font-size: 2.5em;
+margin-bottom: 1em;
+
+}
+
+
+@media (max-width: 490px) {
+
+.description{
+  font-size: 1.5em;
+  margin: 0;
+}
+.images{
+  flex-direction: column;
+}
+.descriptions{
+  flex-direction: column;
+}
+.head{
+  font-size: 3.5em;
+  margin-bottom: 3em;
+}
+.CV{
+  display: flex;
+  flex-direction: column;
+}
+.CV-text{
+  margin-left: 0;
+}
+}
