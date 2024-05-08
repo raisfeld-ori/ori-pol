@@ -24,7 +24,7 @@ export default function Page(){
     <ul className="linksprj">
   
   <li className="linkprj">
-    <Link href={"https://rd-security.netlify.app/"}>rd-security</Link>
+    <Link href={"https://rd-security.netlify.app/"} target='_blank'>rd-security</Link>
   </li>
 </ul>
     
