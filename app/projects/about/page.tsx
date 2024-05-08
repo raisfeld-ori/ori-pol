@@ -33,7 +33,9 @@ export default function socials(){
         this weird path, I ended up as a fullstack developer with the skills to completly make an app from scratch,
         using the languages python, rust, javascript/typescript and whatever tool I thought would fit for the job.
         I also tried to challange myself every once in a while with a difficult challange in something I am not familiar
-        with, like game development in c#, making AI models with tensorflow and even made compilers with C, python and rust.
+        with, like game development in c#, making AI models with tensorflow and I even made compilers with C, python and rust.
+        I also had a couple projects that were not included, mainly: a PDF editor that I showed in google, replacement
+        to chamama's website, habit tracker, gfilte and a CS website for our group in school.
       </p>
     </div>
     </div>
