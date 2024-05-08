@@ -57,8 +57,8 @@ export default function RootLayout({
               >Second year<br />⌄</button>
               <ul className="dropdown" style={{display: right_menu ? "inherit" : "none"}}>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/fall')}>Mini Project</li>
-              <li className="option" onClick={async () => SwitchPage('/projects/second_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/autumn')}>autumn Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/second_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/spring')}>Spring Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/second_year/summer')}>Summer Project</li>
               </ul>
