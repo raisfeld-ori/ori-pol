@@ -13,7 +13,7 @@ export default function Page(){
     with a very heart, I decided to archive it, and instead remake a smaller version that does less. This was a great
     lesson to me about how to set expectations and not raise them too high. still when I look back, this is a very,
     very impressive project for someone with around 1 year of experience, especially considering this version was pure,
-    meaning i used 0 modules (in another words, I didn't use any external tools to make the app).
+    meaning i used 0 modules (in another words, I didn&ldquo;t use any external tools to make the app).
   </p>
   <div className="images">
     <ul className="linksprj">
