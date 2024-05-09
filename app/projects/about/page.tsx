@@ -9,7 +9,7 @@ export default function socials(){
     <div className="aboutme">
      <h1 className="Whoami">Who am i?</h1>
     <p className="description">
-        Hi! my name is ori raisfeld, and i'm a student at the highschool chamama.
+        Hi! my name is ori raisfeld, and i&apos;m a student at the highschool chamama.
         I first tried learning how to program first a couple. years ago, but after 
         around a month or so of trying and enjoying HTML, I was stopped by
         things required by school (tests, homework etc). even though i did fail, this gave
@@ -26,16 +26,16 @@ export default function socials(){
       <h1 className="CV-head">CV</h1>
       <p className="CV-text">
         I started programming last year, with no prior knowlage. In fact, in the start of the first year,
-        I started by looking up "python" (the only programming language I knew) into youtube and seeing what could
+        I started by looking up &apos;python&apos; (the only programming language I knew) into youtube and seeing what could
         I find. Throughout the entire start of my career, I had 0 knowlage of what to do, but I think this is a good
-        thing. because I didn't know anything, I ended up using the absulote worse tools for the job, in every job,
+        thing. because I didn&apos;t know anything, I ended up using the absulote worse tools for the job, in every job,
         which forced me to spend hours reserching and learning how to solve most issues I come accross. Because of
         this weird path, I ended up as a fullstack developer with the skills to completly make an app from scratch,
         using the languages python, rust, javascript/typescript and whatever tool I thought would fit for the job.
         I also tried to challange myself every once in a while with a difficult challange in something I am not familiar
         with, like game development in c#, making AI models with tensorflow and I even made compilers with C, python and rust.
         I also had a couple projects that were not included, mainly: a PDF editor that I showed in google, replacement
-        to chamama's website, habit tracker, gfilte and a CS website for our group in school.
+        to chamama&apos;s website, habit tracker, gfilte and a CS website for our group in school.
       </p>
     </div>
     </div>

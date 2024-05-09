@@ -10,7 +10,7 @@ export default function Page(){
     and this time solving the basic issues that people found. The main issues were that it was
     too complex and too slow, which are great issues for me, since i just now worked on a project
     that required me to work a LOT on speed and simplicity. The final app is a simplified version
-    of rd-security, that instead of creating databases, takes in files and hides them in a "vault".
+    of rd-security, that instead of creating databases, takes in files and hides them in a &apos;vault&apos;.
     Most of my work in this project had a lot more work on the backend than rd-security, which
     gave it more security and better speed. and unlike the previous project, that failed from a spesific
     size, this one could scale infinitly and seemingly dealt with every file given just fine, even up to 3 2gb

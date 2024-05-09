@@ -7,7 +7,7 @@ export default function Page(){
   <h1 className="head">Ksed</h1>
   <p className="description">
     Using all of the skills I had learned so far, I decided to make an app based on
-    rd-security and raisfeld encrypter called "Ksed". Ksed is an app with a
+    rd-security and raisfeld encrypter called &apos;Ksed&apos;. Ksed is an app with a
     desktop environment feel that allows you to have a hidden, alternative
     desktop that is more secure. I worked on both the frontend and the backend
     of the app, and I created most of the main page and almost all of the backend.

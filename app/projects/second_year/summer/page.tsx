@@ -23,7 +23,7 @@ export default function Page(){
     <ul className="linksprj">
   
   <li className="linkprj">
-    <Link href={"https://drive.google.com/file/d/1XEKrJXFnhgQBMH5KW_xrKkur3gqrpLje/view?usp=sharing"}>tiod's video</Link>
+    <Link href={"https://drive.google.com/file/d/1XEKrJXFnhgQBMH5KW_xrKkur3gqrpLje/view?usp=sharing"}>tiod&apos;s video</Link>
   </li>
 </ul>
     
