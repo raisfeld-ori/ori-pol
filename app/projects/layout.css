@@ -151,6 +151,7 @@ display: flex;
 justify-content: space-evenly;
 position:sticky;
 z-index: 9;
+margin-top: 2em;
 bottom: 0;
 }
 
@@ -225,7 +226,8 @@ margin-bottom: 1em;
 }
 
 .CV-minor{
-  font-size: 3em;
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 

@@ -21,7 +21,15 @@ export default function socials(){
     </div>
     <div className="CV">
       <h1 className="CV-head">CV:</h1>
-      <h2 className="CV-minor">example</h2>
+      <h2 className="CV-minor">skills:</h2>
+      <p className="CV-text">fullstack (5/5), rust (4/5), python (5/5), react (5/5), react native (3/5), html/css/javascript (4/5), 
+      game development (2/5), data science (3/5), computer science (2/5), frontend (3/5), backend (4/5), databases (5/5), servers (3/5)
+      </p>
+      <h2 className="CV-minor">Education:</h2>
+      <p className="CV-text">while most of my knowlage was made with experiece, I also learned using:
+      open-university, free code camp and youtube channels. I also finished CS-50, Campus-il courses 
+      (in C, cyber security and computer science), I'm also doing a degree at the Open university in computer science.
+      </p>
     </div>
     <ul className="links">
   
