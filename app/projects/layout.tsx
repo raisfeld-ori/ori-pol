@@ -45,6 +45,7 @@ export default function RootLayout({
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/winter')}>Winter Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/spring')}>Spring Project</li>
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/summer')}>Summer Project</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/first_year/extra')}>Extra Project</li>
             </ul>
           </div>
           <div className="middle page">
