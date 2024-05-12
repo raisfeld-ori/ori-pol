@@ -29,7 +29,7 @@ export default function socials(){
       <h2 className="CV-minor">Education:</h2>
       <p className="CV-text">I learned using the Open-university, free code camp and youtube channels. 
       I also finished CS-50, Campus-il courses  (in C, cyber security and computer science), 
-      I'm also doing a degree at the Open university in computer science. But, most of my learning has been self taught,
+      I&apos;m also doing a degree at the Open university in computer science. But, most of my learning has been self taught,
       meaning I found something that I consider interesting, learn the basics of how it works, and then spend a long time
       </p>
     </div>
