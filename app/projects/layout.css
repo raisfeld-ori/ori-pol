@@ -136,8 +136,8 @@ margin: 10px;
 
 .head{
 font-size: 3em;
-margin-bottom: 2.5em;
-margin-top: 2.5em;
+margin-bottom: 1em;
+margin-top: 1em;
 }
 
 .description{
@@ -211,6 +211,7 @@ margin-bottom: 10em;
 
 .CV-text{
 font-size: 1.5em;
+display: block;
 }
 
 .Whoami{
@@ -228,6 +229,7 @@ margin-bottom: 1em;
 .CV-minor{
   font-size: 2em;
   margin-bottom: 1em;
+  margin-top: 1em;
 }
 
 
