@@ -20,17 +20,7 @@ export default function socials(){
     </p>
     </div>
     <div className="CV">
-      <h2 className="CV-minor">skills:</h2>
-      <p className="CV-text">fullstack (5/5), rust (4/5), python (5/5), react (4/5), react native (3/5), html/css/javascript (4/5), 
-      game development (2/5), data science (3/5), computer science (2/5), frontend (3/5), backend (4/5), databases (5/5), servers (3/5),
-      Sveltekit (2/5), Figma/UX (3/5), Qt (3/5), leading a team (4/5)
-      </p>
-      <h2 className="CV-minor">Education:</h2>
-      <p className="CV-text">I learned using the Open-university, free code camp and youtube channels. 
-      I also finished CS-50, Campus-il courses  (in C, cyber security and computer science), 
-      I&apos;m also doing a degree at the Open university in computer science. But, most of my learning has been self taught,
-      meaning I found something that I consider interesting, learn the basics of how it works, and then spend a long time
-      </p>
+      <h1 className="head resume"><Link href={"/Ori.pdf"}>My Resume</Link></h1>
     </div>
     <ul className="links">
   

@@ -232,8 +232,20 @@ margin-bottom: 1em;
   margin-top: 1em;
 }
 
+.resume{
+  font-size: 5em;
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  cursor: pointer;
+  z-index: 9999;
+}
 
 @media (max-width: 490px) {
+.resume{
+  position: relative;
+  font-size: 1em;
+}
 
 .description{
   font-size: 1.5em;
