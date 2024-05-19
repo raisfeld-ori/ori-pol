@@ -9,14 +9,14 @@ export default function socials(){
      <h1 className="Whoami">Who am I?</h1>
     <p className="description">
         My name is Ori raisfeld and I&apos;m a student at the highschool chamama.
-        I first tried learning how to program first a couple. years ago, but after 
-        around a month or so of trying and enjoying HTML, I was stopped by
-        things required by school (tests, homework etc). even though i did fail, this gave
-        me a passion for programming and started my goal of becoming a programmer.
-        when i met this school, I saw this as an opportunity to finaly learn how to program instead
-        of doing the same things I learned 2 years ago, with 0 passion. with this, i also have my hobby, 
-        Jidokwan, a korean martial art that was made by korea and japan togather, 
-        which later became taekwando and karate.
+        I first tried learning how to program first a couple years ago. but I soon realized 1 thing,
+        school itself was holding me back from actually doing so. Even though I knew this was a good idea,
+        and that I should continue doing so, it felt nearly impossible to both learn how to program and be able
+        to finish homework and get good grades, so eventually I had to give up on programming despite liking it so much.
+        the same thing happend again with things like learning math, getting a better english accent. I eventually
+        was about to just give up on trying new things, but at that time I also saw the highschool chamama, here I could
+        focus on doing those sorts of things instead. Using this place I started my professional career in programming,
+        which led me to where I am today.
     </p>
     </div>
     <div className="CV">
