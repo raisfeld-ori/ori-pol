@@ -4,12 +4,11 @@ import Link from "next/link";
 export default function socials(){
   
   return <div className="container">
-    <h1 className="head">Quick CV:</h1>
-    <p className="description">My name is Ori, I live in hacarmel 70 kfar sava, and I focus on the subject of fullstack, and I have been programming for 2 years</p>
+    <h1 className="head"> </h1>
     <div className="aboutme">
      <h1 className="Whoami">Who am I?</h1>
     <p className="description">
-        I&apos;m a student at the highschool chamama.
+        My name is Ori raisfeld and I&apos;m a student at the highschool chamama.
         I first tried learning how to program first a couple. years ago, but after 
         around a month or so of trying and enjoying HTML, I was stopped by
         things required by school (tests, homework etc). even though i did fail, this gave
