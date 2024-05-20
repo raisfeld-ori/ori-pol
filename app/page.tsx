@@ -16,6 +16,7 @@ export default function Home() {
     //@ts-expect-error
     router.push(location, undefined, { shallow: true });
     router.replace('/projects/about');
+    window.location.reload();
   }
   return (
     <main>

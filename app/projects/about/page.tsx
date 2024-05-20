@@ -2,7 +2,6 @@ import Link from "next/link";
 
 
 export default function socials(){
-  
   return <div className="container">
     <h1 className="head"> </h1>
     <div className="aboutme">
