@@ -9,14 +9,14 @@ function timeout(delay: number) {
 export default function Home() {
   const [opacity, set_opacity] = useState(1);
   const router = useRouter();
-  let transition = 500;
+  let transition = 600;
   async function next_page(){
     set_opacity(0);
     await timeout(transition);
     //@ts-expect-error
     router.push(location, undefined, { shallow: true });
     router.replace('/projects/about');
-    await timeout(100);
+    await timeout(400);
     window.location.reload();
   }
   return (
