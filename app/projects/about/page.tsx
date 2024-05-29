@@ -7,15 +7,16 @@ export default function socials(){
     <div className="aboutme">
      <h1 className="Whoami">Who am I?</h1>
     <p className="description">
-        My name is Ori raisfeld and I&apos;m a student at the highschool chamama.
-        I first tried learning how to program first a couple years ago. but I soon realized 1 thing,
-        school itself was holding me back from actually doing so. Even though I knew this was a good idea,
-        and that I should continue doing so, it felt nearly impossible to both learn how to program and be able
-        to finish homework and get good grades, so eventually I had to give up on programming despite liking it so much.
-        the same thing happend again with things like learning math, getting a better english accent. I eventually
-        was about to just give up on trying new things, but at that time I also saw the highschool chamama, here I could
-        focus on doing those sorts of things instead. Using this place I started my professional career in programming,
-        which led me to where I am today.
+        My name is ori raisfeld, I am a computer science student at the highschool chamama.
+        <br></br>
+        <br></br>
+        <h2>Skills</h2>Fullstack, Data science, Web Scraping, AI
+        <br></br>
+        <br></br>
+        <h2>Programming Languages</h2>Rust, Python, C, C++, React, React Native
+        <br></br>
+        <br></br>
+        <br></br>
     </p>
     </div>
     <div className="CV">

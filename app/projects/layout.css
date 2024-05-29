@@ -6,7 +6,6 @@
   align-items:self-start;
   position: absolute;
   height: 100%;
-  z-index: 3;
   margin-top: 1svh;
 }
 
@@ -137,7 +136,6 @@ margin: 10px;
 .head{
 font-size: 3em;
 margin-bottom: 1em;
-margin-top: 1em;
 }
 
 .description{
@@ -238,7 +236,6 @@ margin-bottom: 1em;
   width: 100%;
   bottom: 0;
   cursor: pointer;
-  z-index: 9999;
 }
 
 @media (max-width: 490px) {
@@ -264,5 +261,9 @@ margin-bottom: 1em;
 .CV{
   display: flex;
   flex-direction: column;
+}
+
+.button-9{
+  text-wrap: nowrap;
 }
 }
