@@ -14,6 +14,7 @@ export default function RootLayout({
 }>) {
   const [left_menu, set_left_menu] = useState(false);
   const [right_menu, set_right_menu] = useState(false);
+  const [middle_menu, set_middle_menu] = useState(false);
   const [opacity, set_opcacity] = useState(1);
   const transition = 1000;
   const router = useRouter();
@@ -22,6 +23,7 @@ export default function RootLayout({
   const SwitchPage = async (location: string) => {
     set_left_menu(false);
     set_right_menu(false);
+    set_middle_menu(false);
     set_opcacity(0);
     await timeout(transition);
     router.replace(location);
@@ -48,8 +50,16 @@ export default function RootLayout({
               <li className="option" onClick={async () => SwitchPage('/projects/first_year/extra')}>Extra Project</li>
             </ul>
           </div>
-          <div className="middle page">
-            <button className="button-9 page no-drop" onClick={async () => SwitchPage('/projects/about')}>About me</button>
+          <div className="middle page" onMouseLeave={() => set_middle_menu(false)}>
+            <button className="button-9 page drop"
+            onClick={() => set_middle_menu(!middle_menu)}
+            onMouseEnter={() => set_middle_menu(true)}
+            >Third year<br />⌄</button>
+            <ul className="dropdown" style={{display: middle_menu ? "inherit" : "none"}}>
+            <li className="option" onClick={async () => SwitchPage('/projects/about')}>About me</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/third_year/autumn1')}>Autumn Project #1</li>
+              <li className="option" onClick={async () => SwitchPage('/projects/third_year/autumn2')}>Autumn Project #2</li>
+            </ul>
           </div>
             <div className="right page" onMouseLeave={() => set_right_menu(false)}>
               <button className="button-9 page drop"

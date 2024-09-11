@@ -22,8 +22,15 @@ export default function Page(){
       <Image className="image" src={example} alt=""/>
     </div>
     
+    <div className="images">
     <ul className="linksprj">
+  
+  <li className="linkprj">
+    <Link href={"https://mega.nz/file/4UACmKaS#OitWW-Ovdbfa2ASOV8ZNaM1lW9M_lak3w7ew1KsnyvQ"} target='_blank'>Download Ksed here</Link>
+  </li>
 </ul>
+    
+  </div>
     
   </div>
   </div>

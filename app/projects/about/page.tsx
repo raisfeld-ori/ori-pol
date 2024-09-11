@@ -10,10 +10,10 @@ export default function socials(){
         My name is ori raisfeld, I am a computer science student at the highschool chamama.
         <br></br>
         <br></br>
-        <h2>Skills</h2>Fullstack, Data science, Web Scraping, AI
+        <h2>Skills</h2>Fullstack, Data science, Web Scraping, Game development
         <br></br>
         <br></br>
-        <h2>Programming Languages</h2>Rust, Python, C, C++, React, React Native
+        <h2>Programming Languages</h2>Rust, Python, C, C++, React / Typescript / Jacascript, React Native
         <br></br>
         <br></br>
         <br></br>
